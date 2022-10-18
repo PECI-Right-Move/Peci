@@ -1,2 +1,2 @@
 # PECI
-Rep for development of a project for PECI
+Este Repositório foi criado para a cadeira de PECI.
