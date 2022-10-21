@@ -1,9 +1,0 @@
--Encontrar análise de movimento
--Para cada caso ver Software (EX: Unity(produz realidade aumentada)), 
-hardware usado e contexto utilizado. Qual a interação usada? 
-Destacar os de baixo custo
--Apreciação (muito difícil, pouco, etc)
--Linguagem de programação-Ver conferências CHI, procurar na biblioteca digital 
-ACM
--Ver que módulos/arquiteturas têm
--Abrir mais o "leque" de temas, sem ser apenas chão de fábrica
