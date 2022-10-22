@@ -1,14 +1,18 @@
 ## WebSite Entrega 1 PECI
 # Conteúdos :
 
+* Introdução  pag inicial
 
-* Introdução
+* Ideia selecionada pag incial landing
 
-* Ideia selecionada
+* Objetivos da mesma	pag inicial landing
 
-* Objetivos da mesma
+* Work Plan	pag alone
 
-* Work Plan
+* Apresentação da equipa e contactos da mesma	
 
-* Apresentação da equipa e contactos da mesma
+## How to run
 
+npm install --legacy-peer-deps
+
+npm start
