@@ -159,6 +159,7 @@ class Profile extends React.Component {
               </Card>
             </Container>
           </section>
+          
         </main>
         <SimpleFooter />
       </>
