@@ -58,7 +58,7 @@ class Index extends React.Component {
         <DemoNavbar />
         <main ref="main">
           <Hero />
-          <Buttons />
+          {/* <Buttons />
           <Inputs />
           <section className="section">
             <Container>
@@ -88,9 +88,9 @@ class Index extends React.Component {
           <Carousel />
           <Icons />
           <Login />
-          <Download />
+          <Download /> */}
         </main>
-        <CardsFooter />
+        {/* <CardsFooter /> */}
       </>
     );
   }
