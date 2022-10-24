@@ -1,12 +1,25 @@
 ## Projeto em Engenharia de Computadores e Informática
 Este Repositório foi criado no âmbito da unidade curricular relativa ao Projeto em Engenharia de Computadores e Informática, tendo como objetivo armazenar toda a informação relativa ao mesmo.
 
-* Beatriz Rodrigues - 93023
+## Trabalho realizado por:
 
-* Catarina Barroqueiro - 103895
+* Rui Campos 
+  * ruigabriel2@ua.pt 
+  * 103709
+  
+* Beatriz Rodrigues 
+  * bea.rodrigues@ua.pt 
+  * 93023
+  
+* Ricardo Covelo
+  * ricardocovelo11@ua.pt 
+  * 102668
 
-* Ricardo Covelo - 102668
+* Catarina Barroqueiro
+  * cbarroqueiro@ua.pt 
+  * 103895
 
-* Rui Campos - 103709
+* Telmo Sauce
+  * telmobelasauce@ua.pt
+  * 104428 
 
-* Telmo Sauce - 104428
