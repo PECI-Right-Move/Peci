@@ -16,3 +16,20 @@
 npm install --legacy-peer-deps
 
 npm start
+
+
+## Trabalho realizado por:
+
+* Rui Campos 
+  ** ruigabriel2@ua.pt 103709
+  
+* Beatriz Rodrigues 
+  ** bea.rodrigues@ua.pt 93023
+  
+* Ricardo Covelo
+  ** ricardocovelo11@ua.pt 102668
+
+* Catarina Barroqueiro
+  ** cbarroqueiro@ua.pt 103895
+
+
