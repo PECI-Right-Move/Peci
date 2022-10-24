@@ -208,7 +208,7 @@ class Hero extends React.Component {
                     <Col lg="6">
                       <h1 className="display-3 text-white">
                       Objetivos{" "}
-                        <span>completed with examples</span>
+                        <span>completed</span>
                       </h1>
                       <p className="lead text-white">
                         The design system comes with four pre-built pages to

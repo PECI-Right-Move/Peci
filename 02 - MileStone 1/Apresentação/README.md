@@ -2,23 +2,24 @@
 # Conteúdos :
 
 
-* Recolha de requisitos 
 
-* Ideia selecionada
+* Recolha de requisitos - Bea
 
-* Objetivos da mesma
+* Ideia selecionada - Bea
 
-* Problemas encontrados até ao momento
+* Objetivos da mesma - Catarina
 
-* Publico alvo
+* Problemas encontrados até ao momento 
 
-* Work Plan - A implementar no site
+* Publico alvo - Rui 
 
-* Ferramentas de gestão de equipa
+* Work Plan - A implementar no site - Bea 
 
-* Metodologia usada (scrum ou outra ágil)
+* Ferramentas de gestão de equipa - Catarina
 
-* Goals finais (até ao momento)
+* Metodologia usada (scrum ou outra ágil) - Bea 
+
+* Goals finais (até ao momento) - Rui 
 
 
 Link Canva para edição: 
