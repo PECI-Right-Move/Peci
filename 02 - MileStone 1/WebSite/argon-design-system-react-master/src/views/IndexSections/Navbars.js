@@ -62,7 +62,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={require("assets/img/brand/2semfundo.png")}
                         />
                       </Link>
                     </Col>
@@ -151,7 +151,7 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          src={require("assets/img/brand/2semfundo.png")}
                         />
                       </Link>
                     </Col>

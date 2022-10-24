@@ -75,7 +75,8 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/brand/argon-react-white.png")}
+                  src={require("assets/img/brand/2semfundo.png")}
+                  style={{ height:"20%",width:"20%" }}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -111,6 +112,7 @@ class DemoNavbar extends React.Component {
                     <NavLink to="/Profile-page" tag={Link}>
                       Profile
                     </NavLink>
+                    
                   </NavItem>
                   <NavItem>
                     <NavLink
