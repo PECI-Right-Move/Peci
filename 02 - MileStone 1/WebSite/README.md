@@ -21,15 +21,15 @@ npm start
 ## Trabalho realizado por:
 
 * Rui Campos 
-  ** ruigabriel2@ua.pt 103709
+  * ruigabriel2@ua.pt 103709
   
 * Beatriz Rodrigues 
-  ** bea.rodrigues@ua.pt 93023
+  * bea.rodrigues@ua.pt 93023
   
 * Ricardo Covelo
-  ** ricardocovelo11@ua.pt 102668
+  * ricardocovelo11@ua.pt 102668
 
 * Catarina Barroqueiro
-  ** cbarroqueiro@ua.pt 103895
+  * cbarroqueiro@ua.pt 103895
 
 
