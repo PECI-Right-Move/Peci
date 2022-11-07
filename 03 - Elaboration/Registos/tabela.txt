@@ -1,0 +1,17 @@
+TITULO       						|        SOTWARE
+							|
+	
+Visualizing Streaming of Ordinal Big Data	| data storage, managing, and analyzes, such as the MapReduce, Haddop, or
+							  specialized techniques just as the PASS (Preserving Anomaly and Semantics Sampling)
+
+
+Virtual Reality For Training:			| Unity
+A Computer Assembly Application			|
+
+
+
+							| Vuforia Engine1 is a SDK widely used for AR development
+Tangible Objects in Virtual Reality for
+Visuo-Haptic Feedback				| that employs computer vision technology to recognise and
+							| track planar images and 3D objects in real-time
+							|
