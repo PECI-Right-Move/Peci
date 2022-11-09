@@ -15,3 +15,8 @@ Tangible Objects in Virtual Reality for
 Visuo-Haptic Feedback				| that employs computer vision technology to recognise and
 							| track planar images and 3D objects in real-time
 							|
+Virtual reality for training:Computer    |		Oculos quest2
+assembly aplication                      |
+
+Genertic XR  game-based approach 	 |		manager module->vue.js   Task configurator->webGL vr training->HTC ViveHMD SenseGloves
+for industrial training                  |              AR app -> microsoft holo lens 2 developed using unity3d using mixed reality kit  deteção deequipamento->markers  
