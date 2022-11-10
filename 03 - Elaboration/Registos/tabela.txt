@@ -34,6 +34,7 @@ Factors in Graphical User Interface Design		|	FFM -> to represent People
 									|	NEO PI-R -> to model their personality variables
 									| 	ANOVAs -> to explore main and interaction effect
 
+
 Exploring how Temporal Framing Affects Trust		|	ANOVAs
 with Time-series Visualizations				|	SPANOVA ->two-way mixed ANOVA
 
