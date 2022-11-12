@@ -1,14 +1,14 @@
 TITULO       							|        SOTWARE
-									|
+								|
 	
 
 Visualizing Streaming of Ordinal Big Data			|	data storage, managing, and analyzes, such as the MapReduce, Haddop, or
-							  		|	specialized techniques just as the PASS (Preserving Anomaly and Semantics Sampling)
+							  	|	specialized techniques just as the PASS (Preserving Anomaly and Semantics Sampling)
 
 
 
 Virtual Reality For Training:					| 	Unity
-A Computer Assembly Application				|
+A Computer Assembly Application					|
 
 
 
@@ -29,7 +29,7 @@ for industrial training                  			|	AR app -> microsoft holo lens 2 de
 
 
 
-Examining User Preferences based on Personality       |	Apriori algorithm 
+Examining User Preferences based on Personality       	|	Apriori algorithm 
 Factors in Graphical User Interface Design		|	FFM -> to represent People
 									|	NEO PI-R -> to model their personality variables
 									| 	ANOVAs -> to explore main and interaction effect
@@ -40,18 +40,20 @@ with Time-series Visualizations				|	SPANOVA ->two-way mixed ANOVA
 
 
 ----
-Virtual reality for training:			|Unity version 2021.2.19f1
-					|Oculos Quest HMD, connected to a computer
+Virtual reality for training:				|Unity version 2021.2.19f1
+							|Oculos Quest HMD, connected to a computer
+							
+							
 Continental's case study
 assembly aplication
 
-immersive VR app to prototype		|CAD's complexity
+immersive VR app to prototype				|CAD's complexity
 
 
 
 
-Supporting Human Operators in an Industrial	|HMD condition
-Shop Floor througth Pervasive Augmented Reality	|
+Supporting Human Operators in an Industrial		|HMD condition
+Shop Floor througth Pervasive Augmented Reality		|
 for training, assistance, maintenaince, assembly or quality control
 
 Methods and materials			|Shop Floor Scenario; HCD Methodology and 					| Pervasive AR Tools(HMD e HHD)
@@ -61,7 +63,7 @@ Methods and materials			|Shop Floor Scenario; HCD Methodology and 					| Pervasi
 Trios: A framework for Interative 3D Photo 	|Stylization of 3D photos given RGB or RGB-D 
 Stylization on Mobile Devices			|input
 
-Decompose the RGB image			|given depth data
+Decompose the RGB image				|given depth data
 store images in 2D array			|GPU-based processing
 
 3D photos resembles an LDI comprising multiple color and depth layers
@@ -72,6 +74,7 @@ Data model				|3D photo for LDI
 					|Stylization Technique
 					|Stylization Parameter & Prest
 					|Camera Path & Setting
+					
 
 Code (based for iOS and iPadIOS)		|Swift, UIKit, CoreImage, CoreML, MetalAPIs
 For test the performance			|IPad Pro 3rd generation with Apple A12X 						|Bionic and 4 GB RAM
@@ -79,18 +82,33 @@ For test the performance			|IPad Pro 3rd generation with Apple A12X 						|Bioni
 
 Building Portuguese Sign Languages 		|(ver arquitetura pagina 76- Fig.1)
 datasets for computacional learning proposes	|
-augmented techniques			|colour, brightness, contrast, saturation, Y-					|axis flip
+augmented techniques				|colour, brightness, contrast, saturation, Y-					|axis flip
 
-architecture				|network composed only LSTM layers and a 
-					|network integrating convolutional layers followed by LSTM layers
+architecture					|network composed only LSTM layers and a 
+						|network integrating convolutional layers followed by LSTM layers
 
 
 Dance and Machine Learning			|OpenPose system
+						
 
 Divided the representations into 3 groups	|Relationship between extremities of the body
-					|Complex connection between different points
-					|Representation of the whole body(literal)
+						|Complex connection between different points
+						|Representation of the whole body(literal)
+						
+					
  
 (seven young dancers over a month doing demonstrations)
 (parece ser bastante interessante no que toca a analisar movimentos de dançarinos(semelhante ao nosso projeto)
 ------
+
+Virtual reality for character simulation:	|Ml- Agents plugins for Unity 3D
+
+Graphical Agent Simulation			|OpenAI Gym Algorithm 
+						|PettingZoo Algorithm
+
+Training Algorithms: Reinforcement Learning 	|Proximal Policy Optimization(PPO) - Single Agent
+						|SOFT-cRITIC (SAC)- Single Agent
+						|Multi-Agent Posthumous Credit Assignment (MA-POCA) -cooperative/competitive
+						
+Training Algorithms: Reinforcement Learning 	|Behavioral Cloning 
+						|Generative Adversarial Imitation Learning (GAIL)
