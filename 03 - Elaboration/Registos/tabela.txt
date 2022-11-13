@@ -101,14 +101,43 @@ Divided the representations into 3 groups	|Relationship between extremities of t
 (parece ser bastante interessante no que toca a analisar movimentos de dançarinos(semelhante ao nosso projeto)
 ------
 
-Virtual reality for character simulation:	|Ml- Agents plugins for Unity 3D
+Virtual reality for character simulation:		|Ml- Agents plugins for Unity 3D
 
-Graphical Agent Simulation			|OpenAI Gym Algorithm 
-						|PettingZoo Algorithm
+Graphical Agent Simulation				|OpenAI Gym Algorithm 
+							|PettingZoo Algorithm
 
-Training Algorithms: Reinforcement Learning 	|Proximal Policy Optimization(PPO) - Single Agent
-						|SOFT-cRITIC (SAC)- Single Agent
-						|Multi-Agent Posthumous Credit Assignment (MA-POCA) -cooperative/competitive
+Training Algorithms: Reinforcement Learning 		|Proximal Policy Optimization(PPO) - Single Agent
+							|SOFT-cRITIC (SAC)- Single Agent
+							|Multi-Agent Posthumous Credit Assignment (MA-POCA) 
+								- cooperative/competitive
 						
-Training Algorithms: Reinforcement Learning 	|Behavioral Cloning 
-						|Generative Adversarial Imitation Learning (GAIL)
+Training Algorithms: Imitation Learning 		|Behavioral Cloning 
+							|Generative Adversarial Imitation Learning (GAIL)
+							
+Possible tools for creating Virtual environments	|Unity
+							|Unreal Engine
+							|Cry Engine
+							|VRIA
+							
+							
+Proposal for authoring tool for immersive 		|Create environments
+experiences - requirements				|Save environments
+							|Load environments
+							|Define deformations
+							|Distribution o objects - allow position and movement 
+							|Create training
+							|Save training 
+							|Load training
+							|Define schedule for training
+							|Choose the equipment (the authoring tool should choose 	
+								which equipment is used for the training that will be executed)
+
+
+Architecture						|Two editors: environment editor and training editor
+							|Interactions and avaiable components in assests repository
+								(Serielized assets in JSON and transformed into String)
+							|Environment editor interface
+							|Training editor interface
+							|Environment and equipment are mandatory parameters 
+								to execute the training.
+							
