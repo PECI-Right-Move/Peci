@@ -9,6 +9,6 @@ A Google disponibiliza todos os recursos numa só biblioteca disponivel em : htt
   
 ## Lego & AR
   
-  {% include youtube.html id="HWo5u6-jmHM" %}
+  {% includes youtube.html id="HWo5u6-jmHM" %}
 
 
