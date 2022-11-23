@@ -9,14 +9,6 @@ A Google disponibiliza todos os recursos numa só biblioteca disponivel em : htt
   
 ## Lego & AR
   
-  <iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/watch?v=HWo5u6-jmHM&t=36s"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+  <{% include youtube.html id="HWo5u6-jmHM&t" %}
 
 
