@@ -1,0 +1,8 @@
+Ver formas alternativas de comecar o projeto 
+e como usar a biblioteca para fazer os nossos objetivos
+
+-Formas alternativas:
+utilizar um telemóvel ao invés dos GG para detetar movimento utilizar um Android em que fizessemos o que está neste link:
+--https://developer.android.com/guide/topics/sensors/sensors_motion?hl=pt-br
+
+Não estou a conseguir encontrar vídeos dos GG a ser utilizados em situações que nos possam ser favoráveis
