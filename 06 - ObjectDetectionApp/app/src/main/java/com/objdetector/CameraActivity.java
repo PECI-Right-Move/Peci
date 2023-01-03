@@ -86,6 +86,7 @@ public abstract class CameraActivity extends Activity
         }
     }
 
+
     private boolean hasPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             return checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED
