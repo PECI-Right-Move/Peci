@@ -85,6 +85,7 @@ public class CameraConnectionFragment extends Fragment {
     @Override
     public void onViewCreated(final View view, final Bundle savedInstanceState) {
         textureView = (AutoFitTextureView) view.findViewById(R.id.texture);
+
     }
 
     @Override
@@ -230,6 +231,7 @@ public class CameraConnectionFragment extends Fragment {
         cameraConnectionListener.onPreviewSizeChosen(previewSize, sensorOrientation);
     }
 
+
     private void openCamera(final int width, final int height) {
         setUpCameraOutputs();
         configureTransform(width, height);
@@ -254,6 +256,7 @@ public class CameraConnectionFragment extends Fragment {
                     public void onDisconnected(final CameraDevice cameraDevice) {
                         cameraOpenCloseLock.release();
                         cameraDevice.close();
+
                         CameraConnectionFragment.this.cameraDevice = null;
                     }
 

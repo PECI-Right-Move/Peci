@@ -64,11 +64,13 @@ public abstract class CameraActivity extends Activity
         super.onPause();
     }
 
+
     protected synchronized void runInBackground(final Runnable runnable) {
         if (handler != null) {
             handler.post(runnable);
         }
     }
+
 
     @Override
     public void onRequestPermissionsResult(final int requestCode, final String[] permissions,
