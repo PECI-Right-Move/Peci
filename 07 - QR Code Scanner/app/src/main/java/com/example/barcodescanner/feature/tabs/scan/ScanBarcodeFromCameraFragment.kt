@@ -2,6 +2,8 @@ package com.example.barcodescanner.feature.tabs.scan
 
 import android.Manifest
 import android.app.Activity
+import android.app.AlertDialog
+import android.app.Dialog
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -18,6 +20,8 @@ import com.example.barcodescanner.di.*
 import com.example.barcodescanner.extension.*
 import com.example.barcodescanner.feature.barcode.BarcodeActivity
 import com.example.barcodescanner.feature.common.dialog.ConfirmBarcodeDialogFragment
+import com.example.barcodescanner.feature.common.dialog.EditBarcodeNameDialogFragment
+import com.example.barcodescanner.feature.common.dialog.PopUpInfoDialogFragment
 import com.example.barcodescanner.feature.tabs.scan.file.ScanBarcodeFromFileActivity
 import com.example.barcodescanner.model.Barcode
 import com.example.barcodescanner.usecase.SupportedBarcodeFormats
@@ -48,6 +52,8 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
     private lateinit var codeScanner: CodeScanner
     private var toast: Toast? = null
     private var lastResult: Barcode? = null
+
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_scan_barcode_from_camera, container, false)
@@ -242,14 +248,17 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
         when {
             settings.confirmScansManually -> showScanConfirmationDialog(barcode)
             settings.saveScannedBarcodesToHistory || settings.continuousScanning -> saveScannedBarcode(barcode)
-            else -> navigateToBarcodeScreen(barcode)
+            //else -> navigateToBarcodeScreen(barcode)
+            else -> showPopUpInfo(barcode)
         }
     }
 
     private fun handleConfirmedBarcode(barcode: Barcode) {
         when {
             settings.saveScannedBarcodesToHistory || settings.continuousScanning -> saveScannedBarcode(barcode)
-            else -> navigateToBarcodeScreen(barcode)
+            //else -> navigateToBarcodeScreen(barcode)
+            else -> showPopUpInfo(barcode)
+
         }
     }
 
@@ -267,6 +276,10 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
         val dialog = ConfirmBarcodeDialogFragment.newInstance(barcode)
         dialog.show(childFragmentManager, "")
     }
+    private fun showPopUpInfo(barcode:Barcode){
+        val dialog = PopUpInfoDialogFragment.newInstance(barcode.name)
+        dialog.show(childFragmentManager, PopUpInfoDialogFragment.TAG)
+    }
 
     private fun saveScannedBarcode(barcode: Barcode) {
         barcodeDatabase.save(barcode, settings.doNotSaveDuplicates)
@@ -277,7 +290,8 @@ class ScanBarcodeFromCameraFragment : Fragment(), ConfirmBarcodeDialogFragment.L
                     lastResult = barcode
                     when (settings.continuousScanning) {
                         true -> restartPreviewWithDelay(true)
-                        else -> navigateToBarcodeScreen(barcode.copy(id = id))
+                        //else -> navigateToBarcodeScreen(barcode.copy(id = id))
+                        else -> showPopUpInfo(barcode.copy(id = id))
                     }
                 },
                 ::showError

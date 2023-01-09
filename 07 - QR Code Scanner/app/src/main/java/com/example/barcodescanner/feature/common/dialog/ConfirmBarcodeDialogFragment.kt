@@ -12,6 +12,7 @@ import com.example.barcodescanner.model.Barcode
 class ConfirmBarcodeDialogFragment : DialogFragment() {
 
     interface Listener {
+
         fun onBarcodeConfirmed(barcode: Barcode)
         fun onBarcodeDeclined()
     }

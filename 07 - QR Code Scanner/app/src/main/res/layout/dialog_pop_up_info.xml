@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@color/black"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:background="@drawable/circle_background"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p6490"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/nomedapeça"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peça A: "
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/refdapeça"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9690"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/caixa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo da caixa: "
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/refcaixa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3A6G7"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/seeMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See in Menu"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
