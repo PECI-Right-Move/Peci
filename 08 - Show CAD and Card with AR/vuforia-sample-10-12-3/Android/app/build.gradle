@@ -34,16 +34,16 @@ android {
             // e.g. gradle -PabiList=x86 clean assembleDebug
             abiFilters ((project.findProperty('abiList') ?: 'armeabi-v7a, arm64-v8a').split(/,\s*/))
         }
-        externalNativeBuild {
-            cmake {
-                cppFlags "-std=c++17"
+      //  externalNativeBuild {
+        //    cmake {
+          //      cppFlags "-std=c++17"
 
                 // Pass ARCore paths to cmake
                 // Part of enabling use of ARCore APIs in the App
-                arguments "-DARCORE_LIBPATH=${ARCORE_LIBPATH}/jni",
-                        "-DARCORE_INCLUDE=${project.rootDir}/arcore/include"
-            }
-        }
+            //    arguments "-DARCORE_LIBPATH=${ARCORE_LIBPATH}/jni",
+              //          "-DARCORE_INCLUDE=${project.rootDir}/arcore/include"
+            //}
+        //}
     }
     archivesBaseName = "vuforia-native-sample"
     sourceSets {
@@ -63,6 +63,7 @@ android {
             version "3.10.2"
         }
     }
+    ndkVersion '21.4.7075529'
 }
 
 dependencies {
